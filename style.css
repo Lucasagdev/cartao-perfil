@@ -1,0 +1,47 @@
+*{
+    font-family: "Kumbh sans";
+    font-weight: 400, 700;
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    color: black;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    text-align: center;
+    height: 350px;
+    width: 300px;
+    list-style-type: none;
+    padding: 30px;
+    border-radius: 10px;
+}
+img{
+    align-items: center;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 5em;
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    padding-bottom: 20px;
+}
+
+.idade, .pais, .detalhes{
+    color: hsl(227, 10%, 46%);
+}
+
+.pais{
+    padding-bottom: 50px;
+}
+
+.informacoes{
+    display: inline-block;
+    align-items: center; 
+    padding: 20px;
+}
